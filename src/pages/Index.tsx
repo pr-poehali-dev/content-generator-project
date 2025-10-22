@@ -232,42 +232,38 @@ export default function Index() {
               </h2>
               <p className="text-xl text-gray-600">Подберите план, который подходит именно вам</p>
             </div>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {[
                 {
                   name: 'Starter',
-                  price: '₽990',
-                  period: 'месяц',
-                  features: ['10,000 слов/месяц', 'Все типы контента', 'Базовая поддержка', 'История генераций'],
+                  price: 'Бесплатно',
+                  period: '',
+                  features: ['10,000 слов/месяц', 'Все типы контента', 'История генераций', 'Перевод: 10 языков', 'До 333 слов в переводе'],
                   gradient: 'from-violet-500 to-purple-500',
                   popular: false,
                 },
                 {
                   name: 'Pro',
-                  price: '₽2,490',
+                  price: '₽150',
                   period: 'месяц',
                   features: [
                     '50,000 слов/месяц',
                     'Все типы контента',
-                    'Приоритетная поддержка',
                     'История генераций',
                     'API доступ',
-                    'Командная работа',
                   ],
                   gradient: 'from-purple-500 to-pink-500',
                   popular: true,
                 },
                 {
-                  name: 'Enterprise',
-                  price: '₽4,990',
+                  name: 'Perfect',
+                  price: '₽600',
                   period: 'месяц',
                   features: [
                     'Безлимитные генерации',
                     'Все типы контента',
-                    'VIP поддержка 24/7',
                     'История генераций',
                     'API доступ',
-                    'Командная работа',
                     'Кастомные модели',
                   ],
                   gradient: 'from-cyan-500 to-blue-500',
