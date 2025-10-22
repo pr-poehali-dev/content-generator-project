@@ -27,7 +27,7 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center">
-                <span className="text-2xl" style={{ filter: 'hue-rotate(10deg) saturate(1.2)' }}>🍇</span>
+                <span className="text-2xl" style={{ filter: 'opacity(0.85) saturate(0.9)', textShadow: '0 0 2px white, 0 0 3px white' }}>🍇</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-violet-600 to-cyan-600 bg-clip-text text-transparent">
                 Klukva AI
@@ -398,7 +398,7 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
-                  <span className="text-lg" style={{ filter: 'hue-rotate(10deg) saturate(1.2)' }}>🍇</span>
+                  <span className="text-lg" style={{ filter: 'opacity(0.85) saturate(0.9)', textShadow: '0 0 2px white, 0 0 3px white' }}>🍇</span>
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-violet-600 to-cyan-600 bg-clip-text text-transparent">
                   Klukva AI
