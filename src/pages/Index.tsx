@@ -30,7 +30,7 @@ export default function Index() {
                 <Icon name="Sparkles" className="text-white" size={24} />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-violet-600 to-cyan-600 bg-clip-text text-transparent">
-                AI Content
+                Klukva AI
               </span>
             </div>
             <div className="hidden md:flex gap-6">
@@ -64,7 +64,7 @@ export default function Index() {
           <div className="animate-fade-in">
             <div className="text-center mb-16">
               <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent">
-                AI Content Generator
+                Klukva AI
               </h1>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 Создавайте уникальный контент за секунды с помощью искусственного интеллекта
@@ -405,7 +405,7 @@ export default function Index() {
                   <Icon name="Sparkles" className="text-white" size={18} />
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-violet-600 to-cyan-600 bg-clip-text text-transparent">
-                  AI Content
+                  Klukva AI
                 </span>
               </div>
               <p className="text-gray-600 text-sm">Создавайте уникальный контент с помощью искусственного интеллекта</p>
@@ -439,7 +439,7 @@ export default function Index() {
             ))}
           </div>
           <div className="mt-12 pt-8 border-t border-gray-200 text-center text-gray-600 text-sm">
-            © 2024 AI Content Generator. Все права защищены.
+            © 2024 Klukva AI. Все права защищены.
           </div>
         </div>
       </footer>
